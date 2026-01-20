@@ -256,18 +256,13 @@ a {
     position: relative;
 }
 
-.hero-avatar {
-    width: 280px;
-    height: 280px;
+.avatar-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 50%;
-    background: var(--gradient-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    box-shadow: var(--shadow-lg);
-    animation: fadeIn 1s ease 0.3s both;
+    border: 4px solid #c9a227;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .avatar-placeholder {
