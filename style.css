@@ -1111,3 +1111,20 @@ a {
         flex-direction: column;
     }
 }
+/* ===== Hero Profile Photo Fix ===== */
+.hero-avatar {
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #c9a227;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
