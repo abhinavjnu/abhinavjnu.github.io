@@ -1,121 +1,103 @@
+# Abhinav Kumar - Portfolio & Research Blog
 
+**Development Researcher** | Political Economy of Digital Platforms | Labour Studies | Digital Market Alternatives
 
-
----
-
-<div align="center">Abhinav Kumar
-
-Political Economy of Digital Platforms · Labour · Digital Market Alternatives
-
-Centre for Informal Sector and Labour Studies
+Centre for Informal Sector and Labour Studies  
 Jawaharlal Nehru University (JNU), New Delhi, India
 
-🌐 Website: abhinavjnu.github.io
-📧 Email: maurya.abhinava@gmail.com
-
-</div>
----
-
-👋 About
-
-I am a development researcher working on the political economy of digital platforms, with a focus on platform labour, worker resistance, and emerging alternatives to platform monopolies in India.
-
-My research examines how platform capitalism restructures markets and work, how workers respond through unionization and collective action, and how communities experiment with non-extractive, community-governed digital market systems. I have submitted my PhD at Jawaharlal Nehru University, where my doctoral work focused on food delivery platforms, labour process, and resistance in India.
-
-My work is grounded in Global South contexts, informed by long-term fieldwork, digital ethnography, and direct engagement with labour unions and worker collectives.
-
+**Website:** [abhinavjnu.github.io](https://abhinavjnu.github.io)  
+**Email:** maurya.abhinava@gmail.com
 
 ---
 
-🔍 Research Interests
+## About This Site
 
-Political economy of digital platforms and market power
+This is my personal portfolio and research blog, built with [Jekyll](https://jekyllrb.com/) and the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, hosted on GitHub Pages.
 
-Labour process, control, and worker resistance in platform-mediated work
+### Features
 
-Sustainability of gig and platform-based employment in the Global South
-
-Community-governed and non-extractive digital market systems
-
-Informal governance, trust, and solidarity-based digital infrastructures
-
-
-
----
-
-🧠 Current Work
-
-Researcher | Christ (Deemed to be University), Delhi NCR
-ICCSR-funded project on Sustainability of Digital Jobs and Youth Livelihoods in the Gig-Platform Economy (Uttar Pradesh)
-
-Ongoing Research
-Community-based digital marketplaces and informal alternatives to platform intermediation, with a case focus on online fragrance communities in India.
-
-
+- **Portfolio Pages:** About, Research Experience, Publications, Education, Skills
+- **Blog:** Research insights on platform economy, labour studies, and digital alternatives
+- **Categories & Tags:** Organized content for easy navigation
+- **Search:** Full-text search functionality
+- **Social Sharing:** Share posts on Twitter, LinkedIn, Facebook, Reddit, WhatsApp, Telegram
+- **Comments:** Giscus (GitHub Discussions-based)
+- **RSS Feed:** Subscribe to new posts
 
 ---
 
-📚 Selected Publications
+## Writing New Blog Posts
 
-Kumar, Abhinav (2025).
-Contesting the Platform: Worker Resistance in India’s Food Delivery.
-The Academic – International Journal of Multidisciplinary Research.
+To create a new blog post:
 
-Kumar, Abhinav (2024).
-Sweat, Strain, and Survival: The Hidden Cost of the Gig Economy in India.
-Workers Resistance (AICCTU).
+1. Create a new file in `_posts/` with the format: `YYYY-MM-DD-title-of-post.md`
 
+2. Add front matter at the top:
 
+```yaml
+---
+title: "Your Post Title"
+date: 2026-01-21
+categories:
+  - Platform Economy
+tags:
+  - gig-work
+  - india
+share: true
+---
+```
+
+3. Write your content in Markdown below the front matter.
+
+4. Commit and push to GitHub. The site will rebuild automatically.
+
+### Available Categories
+
+- Platform Economy
+- Labour Studies
+- Research Methods
+- Digital Alternatives
+- Reviews
 
 ---
 
-🛠 Methods & Tools
+## Local Development
 
-Methods
-Digital ethnography · Qualitative interviews · Mixed-methods research · Survey design · Policy analysis · Field-based research
+To run the site locally:
 
-Tools
-Python · R · Atlas.ti · Kobo Toolbox · NSSO & PLFS datasets
+```bash
+# Install dependencies
+bundle install
 
+# Serve locally
+bundle exec jekyll serve
 
----
-
-📂 What You’ll Find Here
-
-This GitHub profile functions as a research workspace and public archive, including:
-
-Research notes and project documentation
-
-Data analysis scripts (Python / R)
-
-Drafts and supplementary materials for academic work
-
-Public-facing writing on platforms, labour, and digital market alternatives
-
-
+# Visit http://localhost:4000
+```
 
 ---
 
-🤝 Collaboration
+## Research Interests
 
-I’m open to collaboration on research related to:
+- Political economy of digital platforms and market power
+- Labour process, control, and worker resistance in platform-mediated work
+- Sustainability of gig and platform-based employment in the Global South
+- Community-governed and non-extractive digital market systems
+- Informal governance, trust, and solidarity-based digital infrastructures
 
-Platform labour and worker organization
+---
 
-Cooperative and solidarity-based digital economies
+## Collaboration
 
-Informal and community-governed digital infrastructures
+I'm open to collaboration on research related to:
 
-Global South perspectives on digital capitalism
-
+- Platform labour and worker organization
+- Cooperative and solidarity-based digital economies
+- Informal and community-governed digital infrastructures
+- Global South perspectives on digital capitalism
 
 Feel free to reach out via email or through my website.
 
-
 ---
 
-<div align="center">Studying platform domination, labour resistance, and community-governed alternatives in the digital economy.
-
-</div>
----
-
+*Studying platform domination, labour resistance, and community-governed alternatives in the digital economy.*

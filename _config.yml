@@ -1,0 +1,132 @@
+# Welcome to Jekyll!
+# Site Settings
+title: Abhinav Kumar
+subtitle: "Development Researcher"
+name: Abhinav Kumar
+description: >-
+  Development researcher specializing in digital platforms, platform co-ops, 
+  gig work, informal work, and food delivery systems in India. PhD candidate 
+  at Jawaharlal Nehru University, New Delhi.
+url: "https://abhinavjnu.github.io"
+baseurl: ""
+repository: "abhinavjnu/abhinavjnu.github.io"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Site Author
+author:
+  name: "Abhinav Kumar"
+  avatar: "/assets/images/profile.jpeg"
+  bio: "Development Researcher specializing in digital platforms, gig work, and labour studies in India. PhD candidate at JNU, New Delhi."
+  location: "New Delhi, India"
+  email: "maurya.abhinava@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:maurya.abhinava@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://abhinavjnu.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/abhinavjnu"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:maurya.abhinava@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/abhinavjnu"
+
+# Reading Files
+include:
+  - _pages
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Search
+search: true
+search_full_content: true
+
+# Comments - Giscus
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "YOUR_REPO_ID"  # Get this from giscus.app after enabling Discussions
+    category_name: "Announcements"
+    category_id: "YOUR_CATEGORY_ID"  # Get this from giscus.app
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
+
+# Social Sharing
+twitter:
+  username: ""
+facebook:
+  username: ""
+
+# Analytics (optional - add your tracking ID if needed)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "YOUR_TRACKING_ID"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
