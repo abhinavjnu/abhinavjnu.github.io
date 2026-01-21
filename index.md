@@ -18,33 +18,9 @@ excerpt: >
   gig work, and labour studies in India.
 intro:
   - excerpt: "PhD candidate at Jawaharlal Nehru University, New Delhi. My research examines how platform capitalism restructures markets and work, how workers respond through unionization and collective action, and how communities experiment with non-extractive, community-governed digital market systems."
-feature_row:
-  - image_path: /assets/images/profile.jpeg
-    alt: "Research"
-    title: "Research"
-    excerpt: "Exploring digital platforms, gig economy, labour markets, and food delivery systems with a focus on worker conditions and policy implications."
-    url: "/research/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/profile.jpeg
-    alt: "Publications"
-    title: "Publications"
-    excerpt: "Academic papers on platform labour, worker resistance, and the hidden costs of the gig economy in India."
-    url: "/publications/"
-    btn_class: "btn--primary"
-    btn_label: "View Publications"
-  - image_path: /assets/images/profile.jpeg
-    alt: "Blog"
-    title: "Blog"
-    excerpt: "Thoughts and analysis on platform economy, labour studies, research methods, and digital alternatives."
-    url: "/blog/"
-    btn_class: "btn--primary"
-    btn_label: "Read Posts"
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
 
 ## Welcome
 
@@ -59,6 +35,46 @@ My work is grounded in Global South contexts, informed by long-term fieldwork, d
 - Sustainability of gig and platform-based employment in the Global South
 - Community-governed and non-extractive digital market systems
 - Informal governance, trust, and solidarity-based digital infrastructures
+
+---
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Research</h2>
+        <div class="archive__item-excerpt">
+          <p>Exploring digital platforms, gig economy, labour markets, and food delivery systems with a focus on worker conditions and policy implications.</p>
+        </div>
+        <p><a href="/research/" class="btn btn--primary">Learn More</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Publications</h2>
+        <div class="archive__item-excerpt">
+          <p>Academic papers on platform labour, worker resistance, and the hidden costs of the gig economy in India.</p>
+        </div>
+        <p><a href="/publications/" class="btn btn--primary">View Publications</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <div class="archive__item-body">
+        <h2 class="archive__item-title">Blog</h2>
+        <div class="archive__item-excerpt">
+          <p>Thoughts and analysis on platform economy, labour studies, research methods, and digital alternatives.</p>
+        </div>
+        <p><a href="/blog/" class="btn btn--primary">Read Posts</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
 
 ### Get in Touch
 
