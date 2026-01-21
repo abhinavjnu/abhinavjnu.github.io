@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 permalink: /about/
+author_profile: true
 toc: true
 toc_label: "Contents"
 toc_icon: "user"
