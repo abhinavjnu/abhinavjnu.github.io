@@ -46,6 +46,19 @@ This doctoral research examines the political economy of food delivery platforms
 
 ---
 
+## Publications in Progress
+
+- **Algorithmic Tightening: From Rate Cards to Gig Booking in India's Platform Food Delivery Economy** — *target journal:* Work, Employment & Society
+- **Organising the Unorganisable: Worker Resistance in India’s Food Delivery Platforms** — *target journal:* Economic & Political Weekly
+- **Algorithmic Management and Labour Process Control in the Global South** — *target journal:* New Technology, Work and Employment
+- **Platform Capitalism in India: Political Economy of Digital Labour** — *target journal:* Development and Change
+
+## Working Papers / Drafts
+
+- Policy brief on the National Social Security Board for gig workers (Feb 2026)
+- Fieldwork-based report on algorithmic management in Zomato’s delivery system
+- Comparative note on food delivery vs quick commerce labour regimes
+
 ## Work in Progress
 
 - Research on community-based digital marketplaces and informal alternatives to platform intermediation

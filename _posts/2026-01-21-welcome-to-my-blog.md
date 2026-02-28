@@ -3,6 +3,7 @@ title: "Welcome to My Research Blog"
 date: 2026-01-21
 categories:
   - Platform Economy
+permalink: /blog/welcome/
 tags:
   - introduction
   - research
