@@ -1,6 +1,6 @@
 ---
 title: "The Algorithm as Foreman: What Food Delivery Work Reveals About India’s Labour Future"
-date: 2026-02-28
+date: 2026-02-21
 categories:
   - Platform Economy
   - Labour Studies

@@ -1,53 +1,49 @@
 ---
-layout: splash
+layout: single
 permalink: /
 hidden: true
-header:
-  overlay_color: "#667eea"
-  overlay_filter: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
-  actions:
-    - label: "About Me"
-      url: "/about/"
-    - label: "View Research"
-      url: "/research/"
-    - label: "Read Blog"
-      url: "/blog/"
-excerpt: >
-  Specializing in digital platforms, gig work, and labour studies in India.
-feature_row:
-  - title: "Research"
-    excerpt: "Exploring digital platforms, gig economy, and food delivery systems with a focus on worker conditions and policy implications."
-    url: "/research/"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - title: "Publications"
-    excerpt: "Academic papers on platform labour, worker resistance, and the hidden costs of the gig economy in India."
-    url: "/publications/"
-    btn_label: "View Publications"
-    btn_class: "btn--primary"
-  - title: "Blog"
-    excerpt: "Thoughts and analysis on platform economy, labour studies, research methods, and digital alternatives."
-    url: "/blog/"
-    btn_label: "Read Posts"
-    btn_class: "btn--primary"
+author_profile: false
 ---
 
-{% include feature_row %}
+<div class="u-hero">
+  <div class="u-hero__left">
+    <img src="/assets/images/profile.jpeg" alt="Abhinav Kumar" class="u-avatar">
+  </div>
+  <div class="u-hero__intro">
+    <h1>Abhinav Kumar</h1>
+    <span class="subtitle">Development Researcher · PhD Candidate, JNU New Delhi</span>
+    <p>Researching digital platforms, gig work, and labour studies in India. Interested in how the platform economy restructures informal work and urban livelihoods in the Global South.</p>
+    <p class="find-me">Where to find me: <a href="https://scholar.google.com">Google Scholar</a> · <a href="https://orcid.org/">ORCID</a> · <a href="https://github.com/abhinavjnu">GitHub</a> · <a href="mailto:maurya.abhinava@gmail.com">Email</a></p>
+  </div>
+</div>
+
+## About this site
+
+Welcome! I'm a researcher working at the intersection of technological platforms and informal economies. I enjoy observing platform-mediated work from the ground up and translating complex socio-economic realities into accessible insights for academics and the public.
+
+This site shares some of that work — browse my [research](/research/), explore [publications](/publications/), or read the [blog](/blog/).
+
+Interested in collaborating? [Get in touch!](mailto:maurya.abhinava@gmail.com)
 
 ---
 
 ## Research Interests
 
-- Political economy of digital platforms and market power
-- Labour process, control, and worker resistance in platform-mediated work
-- Sustainability of gig and platform-based employment in the Global South
-- Community-governed and non-extractive digital market systems
-
----
-
-## Get in Touch
-
-I'm open to research collaborations and academic opportunities.
-
-**Email:** [maurya.abhinava@gmail.com](mailto:maurya.abhinava@gmail.com)  
-**Location:** Jawaharlal Nehru University, New Delhi, India
+<ul class="clean-list">
+  <li>
+    <strong>Political Economy of Digital Platforms</strong>
+    Analyzing market power, extraction mechanisms, and structural impacts of contemporary digital platforms on local economies.
+  </li>
+  <li>
+    <strong>Labour Process & Worker Resistance</strong>
+    Studying algorithmic control, gamification, and collective resistance in platform-mediated work such as food delivery.
+  </li>
+  <li>
+    <strong>Gig Work in the Global South</strong>
+    Examining the precarity, informalisation, and sustainability of gig and platform-based employment models in the Indian context.
+  </li>
+  <li>
+    <strong>Platform Cooperativism</strong>
+    Exploring community-governed and non-extractive digital market systems as alternatives to dominant corporate platforms.
+  </li>
+</ul>

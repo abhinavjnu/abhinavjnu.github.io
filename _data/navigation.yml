@@ -5,11 +5,8 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Education"
-    url: /education/
-  - title: "Skills"
-    url: /skills/
   - title: "Blog"
     url: /blog/
-  - title: "Search"
-    url: /search/
+  - title: "Education"
+    url: /education/
+

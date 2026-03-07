@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Clean Academic skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #ffffff !default;
+$text-color: #222222 !default;
+$muted-text-color: #666666 !default;
+$primary-color: #144273 !default; // Navy
+$border-color: #eaeaea !default;
+$footer-background-color: #f9f9f9 !default;
+$link-color: $primary-color !default;
+$link-color-hover: darken($link-color, 15%) !default;
+$navicon-link-color-hover: mix(#ffffff, $text-color, 80%) !default;
+
+/* Typography */
+$sans-serif: 'Inter', system-ui, sans-serif !default;
+$serif: 'Merriweather', serif !default;
+$monospace: 'Menlo', 'Consolas', monospace !default;
+
+/* Use serif for headings and sans-serif for body */
+$global-font-family: $sans-serif !default;
+$header-font-family: $serif !default;
+$caption-font-family: $serif !default;
+$footer-font-family: $sans-serif !default;
+
+/* Type scale */
+$type-size-1: 2.2rem !default;
+$type-size-2: 1.8rem !default;
+$type-size-3: 1.5rem !default;
+$type-size-4: 1.25rem !default;
+$type-size-5: 1.1rem !default;
+$type-size-6: 1rem !default;
+$type-size-7: 0.94rem !default;
+$type-size-8: 0.85rem !default;
+
+/* Rounded corners */
+$border-radius: 4px !default;
+
+/* Shadows (keep them very light/flat) */
+$box-shadow: 0 1px 3px rgba(0,0,0,0.05) !default;

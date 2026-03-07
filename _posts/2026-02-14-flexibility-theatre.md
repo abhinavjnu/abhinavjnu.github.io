@@ -1,6 +1,6 @@
 ---
 title: "India’s Gig Workers Deserve More Than Flexibility Theatre"
-date: 2026-02-28
+date: 2026-02-14
 categories:
   - Platform Economy
   - Labour Studies
