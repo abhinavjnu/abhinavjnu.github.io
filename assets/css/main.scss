@@ -1,0 +1,221 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Add specific Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+// Import the specific skin FIRST
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+
+// Import the rest of the minimal mistakes theme
+@import "minimal-mistakes";
+
+// --- CUSTOM ACADEMIC STYLES ---
+
+body {
+  background-color: $background-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Typography Refinements
+h1, h2, h3, h4, h5, h6, .page__title {
+  font-family: $header-font-family;
+  letter-spacing: -0.02em;
+  color: $primary-color;
+}
+
+// Enhanced Masthead (Navigation)
+.masthead {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  
+  .site-title {
+    font-family: $header-font-family;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+}
+
+// --- ACADEMIC HERO SECTION ---
+.academic-hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 1rem 6rem;
+  max-width: $max-width;
+  margin: 0 auto;
+
+  @include breakpoint($large) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 2rem 8rem;
+  }
+
+  .hero__content {
+    flex: 1;
+    text-align: center;
+
+    @include breakpoint($large) {
+      text-align: left;
+      padding-right: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.1;
+      
+      @include breakpoint($large) {
+        font-size: 3.5rem;
+      }
+      
+      span {
+        display: block;
+        font-size: 1.25rem;
+        font-family: $base-font-family;
+        font-weight: 500;
+        color: $muted-text-color;
+        margin-top: 0.5rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+    }
+
+    .hero__excerpt {
+      font-size: 1.25rem;
+      color: $text-color;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      
+      @include breakpoint($large) {
+        margin-left: 0;
+      }
+    }
+
+    .hero__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      
+      @include breakpoint($large) {
+        justify-content: flex-start;
+      }
+
+      .btn {
+        border-radius: 50px; // Pill shape
+        padding: 0.75rem 1.5rem;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        transition: $global-transition;
+        
+        &--outline {
+          background: transparent;
+          border: 1px solid $border-color;
+          color: $text-color;
+          
+          &:hover {
+            border-color: $link-color;
+            color: $link-color;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  .hero__image-wrapper {
+    flex-shrink: 0;
+    
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: $box-shadow;
+      border: 4px solid #fff;
+
+      @include breakpoint($large) {
+        width: 320px;
+        height: 320px;
+      }
+    }
+  }
+}
+
+// --- RESEARCH INTERESTS CARDS ---
+.research-interests-section {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+
+  .section-inner {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+
+  .interests-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .interest-card {
+      background: $background-color;
+      padding: 2rem;
+      border-radius: $border-radius;
+      border: 1px solid $border-color;
+      transition: $hover-transition;
+      display: flex;
+      flex-direction: column;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: $box-shadow;
+        border-color: $link-color;
+      }
+
+      .interest-icon {
+        color: $link-color;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-family: $base-font-family; // Cleaner for cards
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: $text-color;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+// Custom Page layout styles
+.page__inner-wrap {
+  .page__title {
+     margin-top: 2rem;
+  }
+}
