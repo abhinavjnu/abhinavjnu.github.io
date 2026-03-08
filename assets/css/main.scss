@@ -12,8 +12,13 @@
    Inspired by Kamsekar (SciComm Award) & Valtorta (Best Overall 2025)
    ========================================================================== */
 
-/* --- Base Typography --- */
-html { font-size: 16px; }
+/* --- Global Resets --- */
+* { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  overflow-x: hidden; /* Prevent horizontal scroll on body */
+}
 
 body {
   font-family: 'Spectral', Georgia, 'Times New Roman', serif;
@@ -65,10 +70,11 @@ a:hover, a:focus {
   max-width: 820px !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
   width: 100% !important;
   float: none !important;
+  box-sizing: border-box !important;
 }
 
 @media (min-width: 64em) {
@@ -324,8 +330,48 @@ ul.clean-list strong {
 }
 
 /* ==========================================================================
-   RESPONSIVE POLISH
+   RESPONSIVE POLISH & MOBILE FIXES
    ========================================================================== */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .site-title {
+    font-size: 1.2rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  /* Force navigation links to wrap or hide if too many */
+  .greedy-nav .visible-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .greedy-nav a {
+    padding: 0.2rem 0.4rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  .u-hero__intro .subtitle {
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .u-hero__intro .find-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  .u-hero__intro .find-me a {
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 600px) {
   html { font-size: 15px; }
   .masthead__inner-wrap { padding: 0.5rem 1rem; }
